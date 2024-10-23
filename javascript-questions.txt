@@ -1,0 +1,162 @@
+1. what is javascript?
+JavaScript (JS) is a synchronous single threaded programming language that developers use to create interactive web pages and applications. 
+
+
+2. what are different data types of JavaScript?
+     Primitive values:-
+        Primitive data types are the built-in data types provided by JavaScript. They represent single values and are not mutable
+            e.g.    number, string, boolean, NULL, Infinity and symbol
+
+     non- primitive values:-
+        Non-primitive data types, also known as reference types, are objects and derived data types
+        e.g 
+            The 'object' is a non-primitive data type in JavaScript.
+             Arrays and Functions in JavaScript belong to the 'object' data type
+
+
+3. what is hoisting is JavaScript?
+    JavaScript hoisting is the behavior where the interpreter seems to "move" the declarations of functions, variables, or classes to the top of their scope before the code is executed. 
+    
+        This means that you can use these elements in your code before they are defined. However, only the declarations are hoisted, not the initializations or assignments.
+
+4. what is different between '==' and '===' in JavaScript?
+
+    double equal to ('==') is used to compare values equality whereas '===' is used to compare values as well as data types.
+    loose equality('=='). strict equality ('===').
+    e.g.    1 == "1"  true
+            1 === "1"  false
+            1 === 1 true
+
+5. different between var and let in JavaScript
+    i. when tried to access a variable declared with var before initialization it gives 'undefined' and the variable declared with let gives    'ReferenceError: Cannot access 'variableName' before initialization'
+    ii. var has functional scope and let has block scope.
+
+
+6. what is implicite type coersion in JavaScript?
+    automatic conversion of value from one data type to and from another data type.
+
+
+7.  what is IIFE (Imediately invoked functions) in JavaScript
+    This is function which is invoked as soon as it is declared.
+    e.g. (function(){
+        console.log("Hello")
+    })()
+
+
+8. Explain this keyword in JavaScript
+     this' keyword refers to the object that is currently executing or calling the function.
+
+
+9. what is currying in javascript in JavaScript?
+    Currying is a functional programming technique where a function with multiple arguments is transformed into a series of functions, each taking a single argument.
+    e.g.
+        function calculateVolume(length) {
+            return function (breadth) {
+                return function (height) {
+                    return length * breadth * height;
+                }
+            }
+        }
+
+        console.log(calculateVolume(4)(5)(6));
+
+
+10. Explain Closure in javascript?
+    A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment)
+
+         a closure gives a function access to its outer scope. In JavaScript, closures are created every time a function is created, at function creation time
+
+
+11. what is closure?
+        A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment).  
+
+
+12. what are callbacks?
+    A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action.
+
+
+13. what is HOF (higher order function)?
+    A function that receives another function as an argument or that returns a new function or both is called Higher-order function
+    or
+    Higher-Order Functions are functions that can accept other functions as arguments, return functions, or both.
+
+
+14. what are type error in javascript?
+
+    i. EvalError
+        Creates an instance representing an error that occurs regarding the global function 
+    ii. RangeError
+        Creates an instance representing an error that occurs when a numeric variable or parameter is outside its valid range.
+    iii. ReferenceError
+        Creates an instance representing an error that occurs when de-referencing an invalid reference.
+    iv. SyntaxError
+        Creates an instance representing a syntax error.
+
+    v. TypeError
+        Creates an instance representing an error that occurs when a variable or parameter is not of a valid type.
+
+    vi. URIError
+        Creates an instance representing an error that occurs when encodeURI() or decodeURI() are passed invalid parameters.
+
+    vii. AggregateError
+        Creates an instance representing several errors wrapped in a single error when multiple errors need to be reported by an operation, for example by Promise.any().
+    viii. InternalError Non-standard
+        Creates an instance representing an error that occurs when an internal error in the JavaScript engine is thrown. E.g. "too much recursion".
+
+15. What is Memoization?
+    Memoization in javascript is an optimization technique that stores the results of function calls in a temporary data structure and then retrieves the results whenever the stored result is needed in the program.
+
+16. What is use of constructore function in javascript?
+    constructor is to create a new object and set values for any existing object properties.
+
+17. what is constructor function in javascript?
+    A constructor function is a special type of function in programming that is used to create objects.
+
+18. what is callback hell?
+    Callback Hell, also known as "Pyramid of Doom", refers to a situation where multiple nested callbacks make the code more difficult to read and understand.
+
+19. what are promises in javascript?
+    A Promise is an object representing the eventual completion or failure of an asynchronous operation
+
+20. what is DOM?
+     DOM stands for Document Object Model. It is a programming interface for web documents like HTML and XML documents.
+
+21. what is difference between client side and server side javascript?
+    client side scripting runs code like JavaScript on your phone or desktop while server-side scripting runs on the back-end server
+
+22. what are arrow functions?
+    a shorter syntax alternative to the standard function construct in JavaScript
+
+23. difference between  arrow function and normsl function?
+    i. normal functions gets hoisted but arrow functions does not get hoisted.
+    ii. arguments object is not in arrow function.
+    iii. arrow functions does not have this keyword.
+
+24. what is rest parameter and spread operation in JavaScript?
+    both have the same syntax ...rest ...params
+    Rest:
+        The rest parameter syntax allows a function to accept an indefinite number of arguments as an array
+    
+    spread: 
+        spread operator is used to spread an array or object literal in JavaScript.
+
+25. what is use of promises in JavaScript?
+    promises are used to handle asynchronous operations in JavaScript.
+
+26. what are classes in JavaScript?
+    classes are syntactical sugar for constructor functions in JavaScript.
+
+
+27. what is synchronous in JavaScript?
+    Synchronous in Javascript refers to the execution of a program code in a blocking manner.
+
+28. what is asynchronous in JavaScript?
+    Asynchronous in JavaScript means that functions can run independently of the main program flow, allowing other tasks to continue running in parallel.
+
+    Asynchronous programming is a technique that enables your program to start a potentially long-running task and still be able to be responsive to other events while that task runs, rather than having to wait until that task has finished
+
+29. what is throttling in JavaScript?
+    Throttling is a technique used to limit the rate at which a function is called. Throttling transforms a function such that it can only be called once in a specific interval of time.
+
+30. what is debouncing?
+    Debouncing is a way of delaying the execution of a function until a certain amount of time has passed since the last time it was called.

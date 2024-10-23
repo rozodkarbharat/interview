@@ -1,0 +1,134 @@
+1. What is React?
+    React is a JavaScript library for building single-page applications. 
+
+2.What are states in react?
+    state are used to store data in react.
+
+3. what are props in react?
+    Props are arguments passed into React components  
+
+4. what useStates in react?
+    useState is a React Hook that lets you add a state variable to your component.
+
+5. what is useEffect in react?
+    The useEffect Hook allows you to perform side effects in your components. Some examples of side effects are: fetching data, directly updating the DOM, and timers. 
+
+6. Explain lifecycle method in react?
+    Each component in React has a lifecycle which you can monitor and manipulate during its three main phases.
+    The three phases are: Mounting, Updating, and Unmounting.
+
+7. what is useRefs in react?
+    The useRef Hook allows you to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated.
+
+8. what prop drilling in react?
+    Prop drilling refers to the process of passing down props through multiple layers of components, even when some of those components do not directly use the props.
+
+
+9. what are advantages of react?
+    react is used to create single page application.
+    reusability: can create a component and reuse it.
+    flexibility: there is no predefined structure for react.
+
+
+10. what are disadvntages of react?
+    No standard way to write an application. 
+    it's not seo friendly
+
+11. what is virtual DOM?
+    The virtual DOM is a lightweight copy of the real DOM that allows React to manage changes more efficiently by minimizing the direct manipulation required on the real DOM.
+
+12.what is Reconciliation?
+    Reconciliation is the process by which React determines the most efficient way to update the UI in response to changes in data or component hierarchy.
+
+13. what is context in react?
+    Context provides a way to pass data through the component tree without having to pass props down manually at every level.
+
+14. what is useContext in react?
+    useContext is a React Hook that lets you read and subscribe to context from your component.
+
+15. what is useReducers in react?
+    useReducer is a React Hook that lets you add a reducer to your component.
+
+16. what is redux in react?
+    A predictable state container for JavaScript application. Which helps to prop drilling.
+    
+17. why redux is used in react?
+    avoid prop drilling by maintaining global state.
+    redux provide MVC structure
+
+18. what is useSelector?
+    useSelector is a hook provided by React Redux that allows functional components to extract and access data from the Redux store.
+
+19. flow of redux in react?
+
+
+20. Performance optimization techniques in react?
+    i.throttling and debouncing
+    ii. lazy loading
+    iii. memoization using useMemo, useCallback, react.Memo
+
+21. what is useMemo in react?
+    useMemo is a React Hook that caches the result of a function and returns it when called again with the same arguments.
+
+22. what is useCallback in react?
+    useCallback is a React Hook that lets you cache a function definition between re-renders.
+
+23. what is react.memo?
+    React Memo is a higher-order component that wraps around a component to memoize the rendered output and avoid unnecessary renderings in cases where the props passed to the child component are the same.
+
+24. Explain the MVC architecture.
+    model view controller
+    model:
+        The model defines what data the app should contain.
+    view:
+        The view defines how the app's data should be displayed.
+    controller:
+        The controller contains logic that updates the model and/or view in response to input from the users of the app.
+
+25. What is JSX?
+    JSX stands for JavaScript XML. JSX allows us to write HTML in React
+
+
+26. What is higher-order component in React?
+    higher-order component is a function that takes a component as an argument and returns a new component that wraps the original component.
+
+
+27. Explain one way data binding in React?
+    One-way data binding means that data flows in one direction, typically from parent components to child components through props. 
+
+28. What is react router?
+    React Router is a library for handling routing and navigation in React JS Applications.
+
+29. What are hooks in React?
+    Hooks allow function components to have access to state and other React features
+
+30. What is React Fragments?
+    ​ React Fragment is a feature in React that allows you to return multiple elements from a React component by allowing you to group a list of children without adding extra nodes to the DOM.
+
+31. What is a react developer tool?
+
+
+32. Explain CORS?
+    CORS allows resource requests from different origins, bypassing the Same Origin Policy.
+
+33. What is flux architecture in redux?
+    An application architecture for React utilising a unidirectional data flow.
+
+34. what is pure function?
+    Pure functions do not modify the values passed to them. For example, squareAll function that accepts an array does not overwrite the items inside this array. Instead, it returns a new array by using items map.
+
+35. What are Pure Components?
+    React pure components are the components that do not re-render when the value of props and state has been updated with the same values.
+
+36. What are controlled components?
+        Controlled components in React are the components whose state and behaviors are managed by React components using states
+
+38. What are uncontrolled components?
+    uncontrolled components manage their own state and control their behaviors with the help of DOM.
+
+39. What is Lifting State Up in React?
+    In React, sharing state is accomplished by moving it up to the closest common ancestor of the components that need it.
+
+
+40. what is single page applications in react?
+    A Single Page Application (SPA) is a web application that loads a single HTML page and dynamically updates that page as the user interacts with the app.
